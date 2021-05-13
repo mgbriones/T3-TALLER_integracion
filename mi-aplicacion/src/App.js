@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import socket from "./componentes/socket";
+//import socket from "./componentes/socket";
+import Chat from "./componentes/chat";
 
 
 function App() {
 
-  socket.on('POSITION', function(data) { 
-  console.log(data);
-  })
+  //con estas lineas puedo llamar a las psosiciones de las aviones
+  //socket.on('POSITION', function(data) { 
+  //console.log(data);
+  //})
 
 
 
@@ -18,6 +20,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hola mundo
+          <Chat/>
         </p>
         <a
           className="App-link"
@@ -27,6 +30,8 @@ function App() {
         >
           Learn React
         </a>
+
+        
       </header>
     </div>
   );
