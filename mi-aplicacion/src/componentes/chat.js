@@ -6,14 +6,11 @@ const Chat = () => {
     const [mensajes, setMensajes] = useState([]); // array con todos los msn del chat
 
     // mensaje de prueba
-    var msn = {
-        name:'luis',
-        message:'que pasa??'
-        };
     
-    useEffect(()=> {
-        socket.emit('CHAT', msn)
-    })
+    
+    //useEffect(()=> {
+        //socket.emit('CHAT', msn)
+    //})
 
     //useEffect(() => {
         //socket.on("mensajes", (mensaje) => {
@@ -25,15 +22,38 @@ const Chat = () => {
         });    
     
         return () => {
-          socket.off();
-        };
-      }, []);
+          socket.off()};
+      }, [mensajes]);
 
-
+    const submit = (e) => {
+        e.preventDefault();
+        console.log(mensaje)
+        socket.emit("CHAT", {name: 'Luis', message: mensaje});
+        setMensaje("");
+    };
 
     return (
         <div>
+            <div>
+            {/*/ Esto es para poder imprimir los mensajes recibidos */}
             {mensajes.map((e, i) => <div key ={i}> {e.name}: {e.message}  </div> )}
+            </div>
+
+            <form onSubmit={submit}>
+                <label htmlFor=""> Escriba su mensaje</label>
+                <textarea
+                    name=""
+                    id=""
+                    cols="10"
+                    rows="1"
+                    value={mensaje}
+                    onChange={(e) => setMensaje(e.target.value)}
+                ></textarea>
+                <button>Enviar</button>
+            </form>
+
+
+
         </div>
     )
 
