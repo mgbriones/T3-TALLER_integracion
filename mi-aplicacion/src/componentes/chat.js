@@ -3,6 +3,7 @@ import socket from "./socket";
 
 const Chat = () => {
     const [mensaje, setMensaje] = useState(""); // creo que estoy hay que borrarlo
+    const [user, setUser] = useState(""); // creo que estoy hay que borrarlo
     const [mensajes, setMensajes] = useState([]); // array con todos los msn del chat
 
     // mensaje de prueba
@@ -28,7 +29,7 @@ const Chat = () => {
     const submit = (e) => {
         e.preventDefault();
         console.log(mensaje)
-        socket.emit("CHAT", {name: 'Luis', message: mensaje});
+        socket.emit("CHAT", {name: user, message: mensaje});
         setMensaje("");
     };
 
@@ -44,11 +45,21 @@ const Chat = () => {
                 <textarea
                     name=""
                     id=""
-                    cols="10"
+                    cols="20"
+                    rows="1"
+                    value={user}
+                    onChange={(e) => setUser(e.target.value)}
+                ></textarea>
+
+                <textarea
+                    name=""
+                    id=""
+                    cols="20"
                     rows="1"
                     value={mensaje}
                     onChange={(e) => setMensaje(e.target.value)}
                 ></textarea>
+
                 <button>Enviar</button>
             </form>
 
