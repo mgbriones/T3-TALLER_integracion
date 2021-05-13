@@ -41,13 +41,15 @@ const Chat = () => {
             </div>
 
             <form onSubmit={submit}>
-                <label htmlFor=""> Escriba su mensaje</label>
+                <label htmlFor=""> Chatear</label>
+                <div>
                 <textarea
                     name=""
                     id=""
                     cols="20"
                     rows="1"
                     value={user}
+                    placeholder = "Nombre Usuario"
                     onChange={(e) => setUser(e.target.value)}
                 ></textarea>
 
@@ -57,9 +59,12 @@ const Chat = () => {
                     cols="20"
                     rows="1"
                     value={mensaje}
+                    placeholder = "Escriba su mensaje..."
                     onChange={(e) => setMensaje(e.target.value)}
                 ></textarea>
 
+                </div>
+                
                 <button>Enviar</button>
             </form>
 

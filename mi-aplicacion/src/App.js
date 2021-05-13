@@ -3,6 +3,7 @@ import './App.css';
 
 //import socket from "./componentes/socket";
 import Chat from "./componentes/chat";
+import Vuelos from "./componentes/vuelos";
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
         <p>
           Hola mundo
           <Chat/>
+        </p>
+
+        <p>
+          <Vuelos/>
         </p>
         <a
           className="App-link"
