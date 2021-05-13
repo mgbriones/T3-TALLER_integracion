@@ -5,6 +5,13 @@ import socket from "./componentes/socket";
 
 
 function App() {
+
+  socket.on('POSITION', function(data) { 
+  console.log(data);
+  })
+
+
+
   return (
     <div className="App">
       <header className="App-header">
