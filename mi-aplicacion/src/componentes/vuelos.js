@@ -30,7 +30,7 @@ const Vuelos = () => {
     return (
         <div>
             
-            <h1>Preparando la info de Vuelos</h1>
+            <h1>Informacíon de Vuelos</h1>
             {/*/ Esto es para poder imprimir los vuelos recibidos */}
             {info.map((e, i) => <div key ={i}> Codigo:{e.code} - {e.airline} - {e.origin}  </div> )}
 

@@ -35,13 +35,10 @@ const Chat = () => {
 
     return (
         <div>
-            <div>
-            {/*/ Esto es para poder imprimir los mensajes recibidos */}
-            {mensajes.map((e, i) => <div key ={i}> {e.name}: {e.message}  </div> )}
-            </div>
+            
 
             <form onSubmit={submit}>
-                <label htmlFor=""> Chatear</label>
+                <label htmlFor=""> <h1>Chatear</h1></label>
                 <div>
                 <textarea
                     name=""
@@ -63,12 +60,16 @@ const Chat = () => {
                     onChange={(e) => setMensaje(e.target.value)}
                 ></textarea>
 
+                 
                 </div>
+                <button >Enviar</button> 
                 
-                <button>Enviar</button>
             </form>
 
-
+            <div>
+            {/*/ Esto es para poder imprimir los mensajes recibidos */}
+            {mensajes.map((e, i) => <div key ={i}> {e.name}: {e.message}  </div> )}
+            </div>
 
         </div>
     )
