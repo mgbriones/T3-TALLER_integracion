@@ -30,9 +30,15 @@ const Vuelos = () => {
     return (
         <div>
             
-            <h1>Informacíon de Vuelos</h1>
+            <h1>Informacíon de Vuelos (falta 'seats' y pasajeros)</h1>
             {/*/ Esto es para poder imprimir los vuelos recibidos */}
-            {info.map((e, i) => <div key ={i}> Codigo:{e.code} - {e.airline} - {e.origin}  </div> )}
+            {info.map((e, i) => <div key ={i}> Codigo: {e.code} -
+            Aerolinea: {e.airline} - 
+            Origen: ({e.origin})  -
+            Destino: ({e.destinacion}) -
+            Avion: {e.plane} -
+
+              </div> )}
 
         </div>
     )
