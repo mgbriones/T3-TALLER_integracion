@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import socket from "./socket";
+import socket from "./socket"; 
 
 const Chat = () => {
     const [mensaje, setMensaje] = useState(""); // creo que estoy hay que borrarlo

@@ -19,9 +19,7 @@ const Vuelos = () => {
         return () => {
         socket.off("FLIGHTS")};
       }, []);
-    console.log('VERIFICAR')
-    console.log(info.code);
-    console.log(info)
+    
 
     //console.log(info)
     //socket.emit("FLIGHTS");
@@ -33,10 +31,7 @@ const Vuelos = () => {
             
             
 
-            {console.log('AQUI!!')}
-            {console.log(info)}
-            {console.log(info.code)}
-            {console.log((info[0]).passengers)}
+           
 
 
 
@@ -49,9 +44,9 @@ const Vuelos = () => {
             <tr> <td><strong>Codigo:</strong></td> <td>{e.code}</td> </tr>
               <tr> <td>Aerolinea:</td> <td> {e.airline}</td> </tr>
 
-              <tr> <td>Origen:</td> <td>({e.origin})</td> </tr>
-
-              <tr> <td>Destino:</td> <td>({e.destination})</td> </tr>
+              <tr> <td>Origen:</td> <td>({e.origin[0]},{e.origin[1]})</td> </tr>
+         
+              <tr> <td>Destino:</td> <td>({e.destination[0]},{e.destination[1]})</td> </tr>
 
               <tr> <td>Avion:</td> <td>{e.plane}</td> </tr>
 
@@ -65,8 +60,7 @@ const Vuelos = () => {
             </table>
             <br></br>
             </div> )}
-            {console.log('PRUEBAS')}
-            {console.log((info[0]).passengers)}
+      
 
         </div>
     )

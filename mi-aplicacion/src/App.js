@@ -4,6 +4,9 @@ import './App.css';
 //import socket from "./componentes/socket";
 import Chat from "./componentes/chat";
 import Vuelos from "./componentes/vuelos";
+import Aviones from "./componentes/aviones";
+
+{/*import socket from "./componentes/socket"; */}
 
 
 function App() {
@@ -28,20 +31,17 @@ function App() {
         <p>
           <Chat/>
         </p>
-      
+        
+        <p>
+          {/*/--- <Aviones/> --*/}
+          
+        </p>
 
 
 
 
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
 
         
       </header>
