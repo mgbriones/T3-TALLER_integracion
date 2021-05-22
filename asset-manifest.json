@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/T3-TALLER_integracion/mi-aplicacion/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/T3-TALLER_integracion/mi-aplicacion/static/js/main.0b9c1185.chunk.js",
-    "main.js.map": "/T3-TALLER_integracion/mi-aplicacion/static/js/main.0b9c1185.chunk.js.map",
-    "runtime-main.js": "/T3-TALLER_integracion/mi-aplicacion/static/js/runtime-main.8603cf8a.js",
-    "runtime-main.js.map": "/T3-TALLER_integracion/mi-aplicacion/static/js/runtime-main.8603cf8a.js.map",
-    "static/js/2.d590e6b4.chunk.js": "/T3-TALLER_integracion/mi-aplicacion/static/js/2.d590e6b4.chunk.js",
-    "static/js/2.d590e6b4.chunk.js.map": "/T3-TALLER_integracion/mi-aplicacion/static/js/2.d590e6b4.chunk.js.map",
-    "static/js/3.5e8a50a6.chunk.js": "/T3-TALLER_integracion/mi-aplicacion/static/js/3.5e8a50a6.chunk.js",
-    "static/js/3.5e8a50a6.chunk.js.map": "/T3-TALLER_integracion/mi-aplicacion/static/js/3.5e8a50a6.chunk.js.map",
-    "index.html": "/T3-TALLER_integracion/mi-aplicacion/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/T3-TALLER_integracion/mi-aplicacion/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.d590e6b4.chunk.js.LICENSE.txt": "/T3-TALLER_integracion/mi-aplicacion/static/js/2.d590e6b4.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/T3-TALLER_integracion/mi-aplicacion/static/media/logo.6ce24c58.svg"
+    "main.css": "/T3-TALLER_integracion/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/T3-TALLER_integracion/static/js/main.0b9c1185.chunk.js",
+    "main.js.map": "/T3-TALLER_integracion/static/js/main.0b9c1185.chunk.js.map",
+    "runtime-main.js": "/T3-TALLER_integracion/static/js/runtime-main.ac8867c7.js",
+    "runtime-main.js.map": "/T3-TALLER_integracion/static/js/runtime-main.ac8867c7.js.map",
+    "static/js/2.8850dcea.chunk.js": "/T3-TALLER_integracion/static/js/2.8850dcea.chunk.js",
+    "static/js/2.8850dcea.chunk.js.map": "/T3-TALLER_integracion/static/js/2.8850dcea.chunk.js.map",
+    "static/js/3.5e8a50a6.chunk.js": "/T3-TALLER_integracion/static/js/3.5e8a50a6.chunk.js",
+    "static/js/3.5e8a50a6.chunk.js.map": "/T3-TALLER_integracion/static/js/3.5e8a50a6.chunk.js.map",
+    "index.html": "/T3-TALLER_integracion/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/T3-TALLER_integracion/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.8850dcea.chunk.js.LICENSE.txt": "/T3-TALLER_integracion/static/js/2.8850dcea.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/T3-TALLER_integracion/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8603cf8a.js",
-    "static/js/2.d590e6b4.chunk.js",
+    "static/js/runtime-main.ac8867c7.js",
+    "static/js/2.8850dcea.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.0b9c1185.chunk.js"
   ]
