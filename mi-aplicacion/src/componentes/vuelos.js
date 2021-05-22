@@ -3,7 +3,7 @@ import socket from "./socket";
 
 const Vuelos = () => {
     const [mensaje, setMensaje] = useState(""); // creo que estoy hay que borrarlo
-    const [info, setInfo] = useState([{code:'null',airline:'null',origin:'null', passengers:[]}]); // hay que tener un mejor manejo de errores
+    const [info, setInfo] = useState([{code:'null',airline:'null',origin:['null','null'],destination:['null','null'], passengers:[]}]); // hay que tener un mejor manejo de errores
     //const [mensajes, setMensajes] = useState([]); // array con todos los msn del chat
 
 
