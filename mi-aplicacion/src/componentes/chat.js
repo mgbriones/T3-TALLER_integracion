@@ -69,9 +69,10 @@ const Chat = () => {
             <div>
             {/*/ Esto es para poder imprimir los mensajes recibidos */}
             {console.log(mensajes)}
-            {mensajes.map((e, i) => <div key ={i}> {e.name}: {e.message} 
-            <div>--Enviado a las {(new Date(e.date)).toLocaleString()}</div> 
-            
+            {mensajes.map((e, i) => <div key ={i}> 
+            <p align = 'left'><strong>{e.name}</strong> -- <i>Send {(new Date(e.date)).toLocaleString()}</i>  </p>
+            <p align = 'left'><h3>{e.message}</h3> </p> 
+            <br></br>
             
 
              
