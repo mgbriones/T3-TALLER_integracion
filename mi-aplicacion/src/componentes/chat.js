@@ -38,7 +38,7 @@ const Chat = () => {
             
 
             <form onSubmit={submit}>
-                <label htmlFor=""> <h1>Chatear</h1></label>
+                <label htmlFor=""> <h1>Centro de Control</h1></label>
                 <div>
                 <textarea
                     name=""

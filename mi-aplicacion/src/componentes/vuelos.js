@@ -8,6 +8,7 @@ const Vuelos = () => {
     //const [mensajes, setMensajes] = useState([]); // array con todos los msn del chat
     const [ruta, setRuta] = useState([]);
     var camino = [];
+    var avion_ruta = [];
 
 
     useEffect(() => {
@@ -29,6 +30,7 @@ const Vuelos = () => {
     
        
     info.map((plane) => camino.push([plane.origin, plane.destination]) ) 
+    info.map((codigo) => avion_ruta.push(codigo.code)  ) 
  
     
     return (
@@ -37,7 +39,8 @@ const Vuelos = () => {
             {console.log(camino[0][0][0] == 'null', console.log('TERMINO'))}
 
             <h1>Mapa</h1>
-           {!(camino[0][0][0]=='null') && MyMap(camino) }
+            <h6>El puntero indica el origen del viaje. Haz click en el para conocer el codigo de vuelo del avion. </h6>
+           {!(camino[0][0][0]=='null') && MyMap({lista_camino:camino, nombre:avion_ruta}) }
            {console.log('ESTO ES EN EL RETURN'), 
             console.log(camino),
             console.log('====----======-....') , 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Map, MapContainer, TileLayer,Polyline, Marker, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
-
+{/*   import {ubicacionIcon} from '../ubicacionIcon';   */}
 
 function MyMap(test){
     let algo_util = test
@@ -40,13 +40,16 @@ function MyMap(test){
             <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            
-            {console.log('###########'), console.log(test)}
+            />           
+          
 
-            {test.map((ruta) => <Polyline pathOptions={limeOptions} positions={ruta} />)}
+            {(test.lista_camino).map((ruta) => <Polyline pathOptions={limeOptions} positions={ruta}  />)}
             
-            {console.log('@@@@@@@@@@@@@@'), console.log(test)}
+            {(test.lista_camino).map((puntero) => <Marker position={puntero[0]}>
+                                    <Popup>
+                                        vuelo: { test.nombre[(test.lista_camino).indexOf(puntero)]  }
+                                    </Popup>
+                                </Marker> )}
 
 
         </MapContainer>
