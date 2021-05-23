@@ -5,8 +5,10 @@ import './App.css';
 import Chat from "./componentes/chat";
 import Vuelos from "./componentes/vuelos";
 import Aviones from "./componentes/aviones";
+import MyMap from "./componentes/mapa";
 {/*   import MyMap from "./componentes/mapa";        */}
 {/*   import socket from "./componentes/socket";     */}
+
 
 function App() {
 
@@ -20,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       
+        
         
 
         <p>
@@ -31,10 +34,7 @@ function App() {
           <Chat/>
         </p>
         
-        <p>
-          {/*/--- <Aviones/> --*/}
-          
-        </p>
+        
 
 
 
