@@ -1,3 +1,4 @@
+// este segmento se ayudo del siguiente link: https://www.youtube.com/watch?v=mEr9lt5mG9A
 import React, { useState, useEffect, useRef } from "react";
 import socket from "./socket"; 
 
