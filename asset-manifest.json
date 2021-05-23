@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/T3-TALLER_integracion/static/css/main.5374b126.chunk.css",
-    "main.js": "/T3-TALLER_integracion/static/js/main.07f26b09.chunk.js",
-    "main.js.map": "/T3-TALLER_integracion/static/js/main.07f26b09.chunk.js.map",
+    "main.js": "/T3-TALLER_integracion/static/js/main.a6fcfc44.chunk.js",
+    "main.js.map": "/T3-TALLER_integracion/static/js/main.a6fcfc44.chunk.js.map",
     "runtime-main.js": "/T3-TALLER_integracion/static/js/runtime-main.54a6a9da.js",
     "runtime-main.js.map": "/T3-TALLER_integracion/static/js/runtime-main.54a6a9da.js.map",
     "static/css/2.c1e28d34.chunk.css": "/T3-TALLER_integracion/static/css/2.c1e28d34.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.0314bf4d.chunk.js",
     "static/css/main.5374b126.chunk.css",
-    "static/js/main.07f26b09.chunk.js"
+    "static/js/main.a6fcfc44.chunk.js"
   ]
 }
