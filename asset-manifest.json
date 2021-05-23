@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/T3-TALLER_integracion/static/css/main.5374b126.chunk.css",
-    "main.js": "/T3-TALLER_integracion/static/js/main.5fc68591.chunk.js",
-    "main.js.map": "/T3-TALLER_integracion/static/js/main.5fc68591.chunk.js.map",
-    "runtime-main.js": "/T3-TALLER_integracion/static/js/runtime-main.1d468420.js",
-    "runtime-main.js.map": "/T3-TALLER_integracion/static/js/runtime-main.1d468420.js.map",
+    "main.js": "/T3-TALLER_integracion/static/js/main.07f26b09.chunk.js",
+    "main.js.map": "/T3-TALLER_integracion/static/js/main.07f26b09.chunk.js.map",
+    "runtime-main.js": "/T3-TALLER_integracion/static/js/runtime-main.54a6a9da.js",
+    "runtime-main.js.map": "/T3-TALLER_integracion/static/js/runtime-main.54a6a9da.js.map",
     "static/css/2.c1e28d34.chunk.css": "/T3-TALLER_integracion/static/css/2.c1e28d34.chunk.css",
-    "static/js/2.523910ca.chunk.js": "/T3-TALLER_integracion/static/js/2.523910ca.chunk.js",
-    "static/js/2.523910ca.chunk.js.map": "/T3-TALLER_integracion/static/js/2.523910ca.chunk.js.map",
-    "static/js/3.e7c1310e.chunk.js": "/T3-TALLER_integracion/static/js/3.e7c1310e.chunk.js",
-    "static/js/3.e7c1310e.chunk.js.map": "/T3-TALLER_integracion/static/js/3.e7c1310e.chunk.js.map",
+    "static/js/2.0314bf4d.chunk.js": "/T3-TALLER_integracion/static/js/2.0314bf4d.chunk.js",
+    "static/js/2.0314bf4d.chunk.js.map": "/T3-TALLER_integracion/static/js/2.0314bf4d.chunk.js.map",
+    "static/js/3.508f1e60.chunk.js": "/T3-TALLER_integracion/static/js/3.508f1e60.chunk.js",
+    "static/js/3.508f1e60.chunk.js.map": "/T3-TALLER_integracion/static/js/3.508f1e60.chunk.js.map",
     "index.html": "/T3-TALLER_integracion/index.html",
     "static/css/2.c1e28d34.chunk.css.map": "/T3-TALLER_integracion/static/css/2.c1e28d34.chunk.css.map",
     "static/css/main.5374b126.chunk.css.map": "/T3-TALLER_integracion/static/css/main.5374b126.chunk.css.map",
-    "static/js/2.523910ca.chunk.js.LICENSE.txt": "/T3-TALLER_integracion/static/js/2.523910ca.chunk.js.LICENSE.txt",
+    "static/js/2.0314bf4d.chunk.js.LICENSE.txt": "/T3-TALLER_integracion/static/js/2.0314bf4d.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/T3-TALLER_integracion/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d468420.js",
+    "static/js/runtime-main.54a6a9da.js",
     "static/css/2.c1e28d34.chunk.css",
-    "static/js/2.523910ca.chunk.js",
+    "static/js/2.0314bf4d.chunk.js",
     "static/css/main.5374b126.chunk.css",
-    "static/js/main.5fc68591.chunk.js"
+    "static/js/main.07f26b09.chunk.js"
   ]
 }
