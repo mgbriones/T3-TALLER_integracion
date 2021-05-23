@@ -7,7 +7,7 @@ const Vuelos = () => {
     const [info, setInfo] = useState([{code:'null',airline:'null',origin:['null','null'],destination:['null','null'], passengers:[]}]); // hay que tener un mejor manejo de errores
     //const [mensajes, setMensajes] = useState([]); // array con todos los msn del chat
     const [ruta, setRuta] = useState([]);
-    const camino = [];
+    var camino = [];
 
 
     useEffect(() => {
@@ -26,11 +26,10 @@ const Vuelos = () => {
     //console.log(info)
     //socket.emit("FLIGHTS");
     //setMensaje("");
-    console.log('ESTO ES EN EL RETURN')
+    
        
     info.map((plane) => camino.push([plane.origin, plane.destination]) ) 
-    console.log(camino)
-    console.log('====----======-....')
+ 
     
     return (
         <div>
@@ -39,7 +38,13 @@ const Vuelos = () => {
 
             <h1>Mapa</h1>
            {!(camino[0][0][0]=='null') && MyMap(camino) }
-           
+           {console.log('ESTO ES EN EL RETURN'), 
+            console.log(camino),
+            console.log('====----======-....') , 
+            camino = [], 
+            console.log(camino),
+            console.log('====----======-....') }
+                  
 
 
               <h1>Informacíon de Vuelos</h1>

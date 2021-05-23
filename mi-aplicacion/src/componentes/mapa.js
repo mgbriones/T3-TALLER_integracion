@@ -43,7 +43,9 @@ function MyMap(test){
             />
             
             {console.log('###########'), console.log(test)}
+
             {test.map((ruta) => <Polyline pathOptions={limeOptions} positions={ruta} />)}
+            
             {console.log('@@@@@@@@@@@@@@'), console.log(test)}
 
 
